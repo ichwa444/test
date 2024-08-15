@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println(piscine.RectPerimeter(10, 2))
-	fmt.Println(piscine.RectPerimeter(434343, 898989))
-	fmt.Println(piscine.RectPerimeter(10, -2))
+	fmt.Print(piscine.FirstWord("hello there"))
+	fmt.Print(piscine.FirstWord(""))
+	fmt.Print(piscine.FirstWord("hello   .........  bye"))
 }
