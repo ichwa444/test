@@ -7,7 +7,8 @@ import (
 )
 
 func main() {
-	fmt.Print(piscine.FirstWord("hello there"))
-	fmt.Print(piscine.FirstWord(""))
-	fmt.Print(piscine.FirstWord("hello   .........  bye"))
+	fmt.Println(piscine.RepeatAlpha("abc"))
+	fmt.Println(piscine.RepeatAlpha("Choumi."))
+	fmt.Println(piscine.RepeatAlpha(""))
+	fmt.Println(piscine.RepeatAlpha("abacadaba 01!"))
 }
